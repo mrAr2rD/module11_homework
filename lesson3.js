@@ -7,4 +7,6 @@ function sumFunction(numberOne) {
     }
 }
 
-console.log(sumFunction());
+console.log(sumFunction(2)(3));
+
+// Сама функция написана правильно, но вызов был неверный, не хватало вторых скобок и аргументов. Исправила
